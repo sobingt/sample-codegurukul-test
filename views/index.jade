@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+  body
+    h1 hi #{name}
+    #container.col
+      if youAreUsingJade
+        p You are #{name} of age #{age}
+      else
+        p You are #{name} of age #{age}
+      p.
+        Jade is a terse and simple
+        templating language with a
+        strong focus on performance
+        and powerful features.
+    script(src='vendor/jquery/dist/jquery.js')
+    script(src='vendor/bootstrap/dist/js/bootstrap.js')

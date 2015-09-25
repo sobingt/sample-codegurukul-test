@@ -1,0 +1,23 @@
+{
+  "name": "simple-node",
+  "version": "1.0.0",
+  "description": "Simple express project",
+  "main": "server.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "express",
+    "sample",
+    "project"
+  ],
+  "author": "Sobin George Thomas <sobingt@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "cookie-parser": "^1.4.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.6.1",
+    "serve-favicon": "^2.3.0"
+  }
+}
